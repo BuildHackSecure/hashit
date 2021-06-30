@@ -6,7 +6,7 @@ Small bash script for encoding piped input to then pass on
 git clone https://github.com/adamtlangley/hashit.git  
 cd hashit  
 chmod +x hashit  
-cp hashit /usr/bin/local/
+cp hashit /usr/local/bin/
 
 ### Usage Examples
 
