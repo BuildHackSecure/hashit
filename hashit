@@ -6,6 +6,8 @@ do
     echo $i | md5sum | awk '{ print $1 }'
   elif [ "$1" == "b64" ]; then
     echo $i | base64
+  elif [ "$1" == "b32" ]; then
+    echo $i | base32
   else
     echo $i
   fi
