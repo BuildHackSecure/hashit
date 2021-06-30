@@ -3,7 +3,7 @@ Small bash script for encoding piped input to then pass on
 
 ### Install Instructions
 
-git clone https://github.com/adamtlangley/hashit.git 
+git clone https://github.com/adamtlangley/hashit.git  
 cd hashit  
 chmod +x hashit  
 cp hashit /usr/bin/local/
